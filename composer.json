@@ -1,0 +1,24 @@
+{
+  "name": "backend-module/micro_base_component",
+  "type": "library",
+  "description": "Symfony micro service base component",
+  "keywords": [
+    "event listener",
+    "logger",
+    "symfony 4"
+  ],
+  "authors": [
+    {
+      "name": "Artem Onyshchenko"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "symfony/framework-bundle": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Micro\\BaseComponent\\": "./src"
+    }
+  }
+}
